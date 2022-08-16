@@ -1,0 +1,24 @@
+{
+  "name": "Insta-like : m_erlandi",
+  "description": "host insta-foloow on heroku.",
+  "image": "heroku/python",
+  "repository": "@erl_andi",
+  "keywords": ["python", "instagram" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "link": {
+      "description": "apa coba hayo."
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
