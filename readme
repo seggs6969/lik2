@@ -1,6 +1,4 @@
-## insta-follow
+# IG TOOLS BY ERL
+## deploy to heroku
 
-
-- usage : ``` python3 like.py <link>```
-
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
